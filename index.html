@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <p>Navigation:</p>
+      <ul class="nav-list">
+        <li class="nav-item-active"><a href="./index.html">Boxes</a></li>
+        <li><a href="./tic-tac-toe.html">Tic-tac-toe</a></li>
+        <li><a href="./party.html">Party</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="wrapper">
+      <svg id="icon-play1" class="icon" viewBox="0 0 32 32" width="32" heigth="32">
+        <path d="M6 4l20 12-20 12z"></path>
+      </svg>
+      <svg id="icon-pause1" style="display: none" class="icon" viewBox="0 0 32 32">
+        <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
+      </svg>
+      <div class="js-box-wrapper">
+        <div class="box red js-box"></div>
+        <button class="add-button " data-color='red'>➕</button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <svg id="icon-play2" class="icon" viewBox="0 0 32 32" width="32" heigth="32">
+        <path d="M6 4l20 12-20 12z"></path>
+      </svg>
+      <svg id="icon-pause2" style="display: none" class="icon" viewBox="0 0 32 32">
+        <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
+      </svg>
+      <div class="js-box-wrapper">
+        <div class="box blue js-box"></div>
+        <button class="add-button" data-color='blue'>➕</button>
+      </div>
+    </div>
+    <div class="wrapper">
+      <svg id="icon-play3" class="icon" viewBox="0 0 32 32" width="32" heigth="32">
+        <path d="M6 4l20 12-20 12z"></path>
+      </svg>
+      <svg id="icon-pause3" style="display: none" class="icon" viewBox="0 0 32 32">
+        <path d="M4 4h10v24h-10zM18 4h10v24h-10z"></path>
+      </svg>
+      <div class="js-box-wrapper">
+        <div class="box yellow js-box"></div>
+        <button class="add-button" data-color='yellow'>➕</button>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="js-inventory">
+    </div>
+  </footer>
+  <script src="./scrypt.js" type="module"></script>
+</body>
+
+</html>
